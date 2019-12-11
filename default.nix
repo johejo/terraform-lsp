@@ -1,12 +1,12 @@
 with import <nixpkgs> {};
 
-buildGo112Module rec {
+buildGo113Module rec {
 
   name = "terraform-lsp";
   version = "0.0.9";
   src = ./.;
 
-  modSha256 = "038jm0cllk50s6lqmjm65mj6y3jdgdqpvs9lzmmh352s500vzs90"; 
+  modSha256 = "0iwkvm6xnkg0q33rdrw5ba6ll85d5rvy2zlplw7ibpfv3ixgjxgg"; 
 
   buildPhase = ''
     runHook preBuild
